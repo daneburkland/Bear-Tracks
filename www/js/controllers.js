@@ -55,12 +55,12 @@ angular.module('bearTracks.controllers', [])
 
 .controller('CategoriesCtrl', function($scope) {
   $scope.categories = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'Severity', id: 1 },
+    { title: 'Duration', id: 2 },
+    { title: 'Food', id: 3 },
+    { title: 'Health', id: 4 },
+    { title: 'Environment', id: 5 },
+    { title: 'Relief', id: 6 }
   ];
 })
 
